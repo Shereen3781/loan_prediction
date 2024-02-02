@@ -3,7 +3,6 @@ import pandas as pd
 import joblib
 import sklearn
 import category_encoders
-!pip install imblearn
 import imblearn
 
 Model = joblib.load("Model.pkl")
